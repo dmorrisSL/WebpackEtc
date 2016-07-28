@@ -1,0 +1,19 @@
+{
+    "name": "webpack-etc",
+    "version": "0.0.1",
+    "description": "Personal sandbox for testing webpack etc",
+    "keywords": "Yale lime west master skelington",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "webpack-dev-server --progress",
+        "a": "webpack ./app.js app.bundle.js"
+    },
+    "devDependencies": {
+        "webpack": "^1.12.14",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+        "react": "^0.14.7"
+    }
+}
+    
